@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule "/" "?act=home"
+RewriteRule "giohang" "?act=cart"
+RewriteRule "thiheo-bo-ga" "?act=shop&sp=1"
+RewriteRule "haisantuoi" "?act=shop&sp=2"
+RewriteRule "raucuqua" "?act=shop&sp=3"
+RewriteRule "dauan-giavi" "?act=shop&sp=4"
